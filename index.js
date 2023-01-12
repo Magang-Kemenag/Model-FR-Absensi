@@ -47,12 +47,12 @@ function handleButton(elem) {
     case "0":
       firstSamples++;
       document.getElementById("firstsamples").innerText =
-        "First samples:" + rockSamples;
+        "First samples:" + firstSamples;
       break;
     case "1":
       secondSamples++;
       document.getElementById("secondsamples").innerText =
-        "Second samples:" + paperSamples;
+        "Second samples:" + secondSamples;
       break;
   }
 
